@@ -21,7 +21,17 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+        <activity android:name=".ui.PantryListActivity" />
+        <activity android:name=".ui.AddEditIngredientActivity" />
+        <activity android:name=".ui.SuggestedRecipesActivity" />
+        <activity android:name=".ui.RecipeDetailActivity" />
+        <activity android:name=".ui.SettingsActivity" />
+
+
+
     </application>
 
 </manifest>
