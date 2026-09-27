@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Brand Primary Colors (Emerald Theme) -->
+    <color name="primary_green">#059669</color>
+    <color name="primary_dark_green">#047857</color>
+    <color name="primary_light_green">#D1FAE5</color>
+    <color name="accent_amber">#F59E0B</color>
+
+    <!-- UI Neutral Colors -->
+    <color name="background_light">#F8FAFC</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="border_color">#E2E8F0</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Expiry Status Colors -->
+    <color name="status_expired_bg">#FEE2E2</color>
+    <color name="status_expired_text">#991B1B</color>
+
+    <color name="status_warning_bg">#FEF3C7</color>
+    <color name="status_warning_text">#92400E</color>
+
+    <color name="status_fresh_bg">#D1FAE5</color>
+    <color name="status_fresh_text">#065F46</color>
 </resources>

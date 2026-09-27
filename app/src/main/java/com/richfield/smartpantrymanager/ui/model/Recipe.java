@@ -1,18 +1,29 @@
 package com.richfield.smartpantrymanager.ui.model;
 
-
 import java.util.List;
 
+/**
+ * Model class representing a recipe with ingredient requirements and instructions.
+ */
 public class Recipe {
     private int id;
     private String name;
-    private List<String> ingredients; // List of ingredient names for simplicity
+    private List<String> ingredients;
     private String instructions;
 
-    // Empty constructor
+    /**
+     * Default constructor.
+     */
     public Recipe() {}
 
-    // Full constructor
+    /**
+     * Parameterized constructor for creating a Recipe instance.
+     *
+     * @param id           Unique recipe ID
+     * @param name         Recipe title
+     * @param ingredients  List of required ingredient names
+     * @param instructions Step-by-step cooking directions
+     */
     public Recipe(int id, String name, List<String> ingredients, String instructions) {
         this.id = id;
         this.name = name;
@@ -20,7 +31,6 @@ public class Recipe {
         this.instructions = instructions;
     }
 
-    // Getters and setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
