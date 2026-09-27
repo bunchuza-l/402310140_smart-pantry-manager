@@ -1,12 +1,14 @@
-package com.example.smartpantrymanager.ui;
+package com.richfield.smartpantrymanager.ui;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.richfield.smartpantrymanager.R;
 
 public class SuggestedRecipesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_suggested_recipes); // Create this layout next
+        setContentView(R.layout.activity_suggested_recipes);
     }
 }

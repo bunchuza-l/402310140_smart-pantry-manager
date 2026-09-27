@@ -1,4 +1,4 @@
-package com.example.smartpantrymanager
+package com.richfield.smartpantrymanager
 
 import org.junit.Test
 

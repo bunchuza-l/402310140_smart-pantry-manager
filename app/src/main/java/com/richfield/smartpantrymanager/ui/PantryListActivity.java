@@ -1,7 +1,9 @@
-package com.example.smartpantrymanager.ui;
+package com.richfield.smartpantrymanager.ui;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.richfield.smartpantrymanager.R;
 
 public class PantryListActivity extends AppCompatActivity {
     @Override
