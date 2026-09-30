@@ -1,3 +1,7 @@
+/*
+ * Smart Pantry Manager
+ * Course: 402310140 Mobile_APP_Dev
+ */
 package com.richfield.smartpantrymanager.ui;
 
 import android.os.Bundle;
