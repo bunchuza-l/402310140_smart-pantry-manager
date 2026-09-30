@@ -43,7 +43,7 @@
         android:fillColor="#FFFFFF"
         android:pathData="M50,56c0,14 8,22 20,22s20,-8 20,-22z" />
 
-    <!-- Bowl Rim Fill (Light Blue / Milk Surface) -->
+    <!-- Bowl Rim Rim Fill (Light Blue / Milk Surface) -->
     <path
         android:fillColor="#E0F2FE"
         android:pathData="M48,56c0,-2.5 10,-4.5 22,-4.5s22,2 22,4.5c0,2.5 -10,4.5 -22,4.5s-22,-2 -22,-4.5z" />

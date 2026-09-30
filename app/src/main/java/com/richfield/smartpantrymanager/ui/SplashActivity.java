@@ -1,3 +1,7 @@
+/*
+ * Smart Pantry Manager
+ * Course: 402310140 Mobile_APP_Dev
+ */
 package com.richfield.smartpantrymanager.ui;
 
 import android.content.Intent;
@@ -15,7 +19,7 @@ import com.richfield.smartpantrymanager.R;
  */
 public class SplashActivity extends AppCompatActivity {
 
-    private static final int SPLASH_DELAY_MS = 2000;
+    private static final int SPLASH_DELAY_MS = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

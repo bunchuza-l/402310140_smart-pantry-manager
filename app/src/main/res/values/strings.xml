@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Smart Pantry</string>
+    <string name="app_name">Smart Pantry Manager</string>
 
     <!-- Navigation & Titles -->
     <string name="title_home">Smart Pantry Manager</string>
@@ -41,11 +41,15 @@
     <string name="btn_cancel">Cancel</string>
 
     <!-- Splash Screen -->
-    <string name="splash_subtitle">Your Intelligent Kitchen Companion</string>
+    <string name="splash_subtitle">Master Your Pantry. Eliminate Waste. Cook Genius.</string>
 
-    <!-- About Section -->
+    <!-- About & Preferences -->
+    <string name="title_preferences">Preferences</string>
+    <string name="label_expiring_alerts">Expiring-Soon Ingredient Alerts</string>
+    <string name="desc_expiring_alerts">Highlights items expiring within 3 days in orange</string>
     <string name="about_title">About Smart Pantry</string>
-    <string name="about_description">Smart Pantry Manager helps you track kitchen inventory, monitor expiration dates, reduce food waste, and discover delicious recipes based on items you already have.</string>
-    <string name="about_developer">Developed for Richfield Course Assignment</string>
+    <string name="about_description">Smart Pantry Manager empowers you to master your kitchen, track expiration dates effortlessly, eliminate food waste, and discover delicious recipes strictly matching your ingredients.</string>
+    <string name="about_developer">Developed for 402310140 Mobile_APP_Dev</string>
+    <string name="about_course">402310140 Mobile_APP_Dev</string>
     <string name="about_version">Version 1.0</string>
 </resources>
