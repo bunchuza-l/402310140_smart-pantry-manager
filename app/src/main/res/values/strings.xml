@@ -49,7 +49,7 @@
     <string name="desc_expiring_alerts">Highlights items expiring within 3 days in orange</string>
     <string name="about_title">About Smart Pantry</string>
     <string name="about_description">Smart Pantry Manager empowers you to master your kitchen, track expiration dates effortlessly, eliminate food waste, and discover delicious recipes strictly matching your ingredients.</string>
-    <string name="about_developer">Developed for 402310140 Mobile_APP_Dev</string>
+    <string name="about_developer">Designed by 402310140</string>
     <string name="about_course">402310140 Mobile_APP_Dev</string>
     <string name="about_version">Version 1.0</string>
 </resources>

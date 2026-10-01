@@ -1,6 +1,6 @@
 # 🥗 Smart Pantry Manager
 
-A native Android application developed for **402310140 Mobile_APP_Dev** to help users track home ingredients, monitor expiration dates, eliminate food waste, and suggest recipes strictly based on available pantry items.
+A native Android application designed by **402310140** to help users track home ingredients, monitor expiration dates, eliminate food waste, and suggest recipes strictly based on available pantry items.
 
 ---
 
@@ -70,5 +70,5 @@ A native Android application developed for **402310140 Mobile_APP_Dev** to help 
 - **Slogan**: Master Your Pantry. Eliminate Waste. Cook Genius.
 - **Course**: 402310140 Mobile_APP_Dev
 - **Institution**: Richfield Graduate Institute
-- **Developer**: Student Assignment Submission
+- **Developer**: Designed by 402310140
 - **Version**: 1.0.0

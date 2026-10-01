@@ -164,7 +164,6 @@ public class PantryDatabaseHelper extends SQLiteOpenHelper {
             } while (cursor.moveToNext());
             cursor.close();
         }
-        db.close();
         return recipeList;
     }
 
@@ -178,9 +177,7 @@ public class PantryDatabaseHelper extends SQLiteOpenHelper {
         values.put(COLUMN_UNIT, unit);
         values.put(COLUMN_EXPIRY, expiryDate);
 
-        long id = db.insert(TABLE_INGREDIENT, null, values);
-        db.close();
-        return id;
+        return db.insert(TABLE_INGREDIENT, null, values);
     }
 
     public List<Ingredient> getAllIngredients() {
@@ -200,7 +197,6 @@ public class PantryDatabaseHelper extends SQLiteOpenHelper {
             } while (cursor.moveToNext());
             cursor.close();
         }
-        db.close();
         return ingredientList;
     }
 
@@ -212,15 +208,12 @@ public class PantryDatabaseHelper extends SQLiteOpenHelper {
         values.put(COLUMN_UNIT, ingredient.getUnit());
         values.put(COLUMN_EXPIRY, ingredient.getExpiryDate());
 
-        int rows = db.update(TABLE_INGREDIENT, values, COLUMN_ID + " = ?", new String[]{String.valueOf(ingredient.getId())});
-        db.close();
-        return rows;
+        return db.update(TABLE_INGREDIENT, values, COLUMN_ID + " = ?", new String[]{String.valueOf(ingredient.getId())});
     }
 
     public void deleteIngredient(int id) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TABLE_INGREDIENT, COLUMN_ID + " = ?", new String[]{String.valueOf(id)});
-        db.close();
     }
 
     public Ingredient getIngredientById(int id) {
@@ -236,7 +229,6 @@ public class PantryDatabaseHelper extends SQLiteOpenHelper {
             ingredient.setExpiryDate(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_EXPIRY)));
             cursor.close();
         }
-        db.close();
         return ingredient;
     }
 }
